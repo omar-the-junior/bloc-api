@@ -43,3 +43,42 @@ $ pnpm run test:e2e
 $ pnpm run test:cov
 ```
 
+# API TODOs
+
+* [x] **1. Project Setup**:
+   * [x] 1.1 Set up a new Nest.js project using the Nest CLI or manually.
+   * [x] 1.2 Configure your project to use a MySQL database with Prisma as the ORM.
+
+* [x] **2. Create Models**:
+   * [x] 2.1 Define your database models for articles and user accounts using Prisma. Include fields like title, content, publication date, and author for articles.
+
+* [x] **3. User Authentication**:
+   * [x] 3.1 Implement user authentication functionality.
+   * [x] 3.2 Use JWT (JSON Web Tokens) for user authentication and create endpoints for user login.
+
+* [x] **4. Article CRUD**:
+   * [x] 4.1 Create API endpoints for creating, reading, updating, and deleting articles.
+   * [ ] 4.2 Implement validation to ensure that only authorized users can modify or delete their own posts.
+
+* [ ] **5. Listing Articles**:
+   * [ ] 5.1 Create an endpoint to list all articles, including pagination and filtering options.
+   * [ ] 5.2 Implement a feature to display the most recent posts on the homepage.
+   * [ ] 5.3 Add sorting options for posts, such as sorting by date or popularity.
+
+* [ ] **6. Comments**:
+   * [ ] 6.1 Add a feature to allow users to leave comments on articles.
+   * [ ] 6.2 Include endpoints for creating and retrieving comments.
+
+* [ ] **7. Categories and Tags**:
+   * [ ] 7.1 Implement a system for categorizing and tagging articles.
+   * [ ] 7.2 Create endpoints for listing posts by category or tag.
+
+* [ ] **8. Search Functionality**:
+   * [ ] 8.1 Add a search functionality that allows users to search for specific articles based on keywords.
+
+* [ ] **9. File Uploads**:
+    * [ ] 9.1 Allow users to upload images to be used in their articles.
+    * [ ] 9.2 Implement image upload and storage using a library like Multer.
+
+* [ ] **10. Testing**:
+    * [ ] 10.1 Write unit tests and integration tests for your controllers and services to ensure that your application functions correctly.
