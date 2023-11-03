@@ -70,8 +70,8 @@ $ pnpm run test:cov
    * [ ] 5.7 Make draft articles only visible to the author.
 
 * [ ] **6. Comments**:
-   * [ ] 6.1 Add a feature to allow users to leave comments on articles.
-   * [ ] 6.2 Include endpoints for creating and retrieving comments.
+   * [x] 6.1 Add a feature to allow users to leave comments on articles.
+   * [x] 6.2 Include endpoints for creating and retrieving comments.
    * [ ] 6.3 Implement validation to ensure that only authorized users can modify or delete their own comments.
    * [ ] 6.4 Add a feature to allow users to reply to comments.
    * [ ] 6.5 Close comments for draft articles.

@@ -23,6 +23,7 @@ export class ArticlesController {
   @Post()
   @ApiCreatedResponse({ type: ArticleEntity })
   async create(@Body() createArticleDto: CreateArticleDto) {
+    // TODO: allow comments only for published articles
     return new ArticleEntity(
       await this.articlesService.create(createArticleDto),
     );
