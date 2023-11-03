@@ -64,21 +64,33 @@ $ pnpm run test:cov
    * [ ] 5.1 Create an endpoint to list all articles, including pagination and filtering options.
    * [ ] 5.2 Implement a feature to display the most recent posts on the homepage.
    * [ ] 5.3 Add sorting options for posts, such as sorting by date or popularity.
+   * [ ] 5.4 Create an endpoint to list all comments for a specific article.
+   * [ ] 5.5 Make only authenticated user can create a new article.
+   * [ ] 5.6 Make only authenticated user can update or delete his own article.
+   * [ ] 5.7 Make draft articles only visible to the author.
 
 * [ ] **6. Comments**:
    * [ ] 6.1 Add a feature to allow users to leave comments on articles.
    * [ ] 6.2 Include endpoints for creating and retrieving comments.
+   * [ ] 6.3 Implement validation to ensure that only authorized users can modify or delete their own comments.
+   * [ ] 6.4 Add a feature to allow users to reply to comments.
+   * [ ] 6.5 Close comments for draft articles.
 
-* [ ] **7. Categories and Tags**:
-   * [ ] 7.1 Implement a system for categorizing and tagging articles.
-   * [ ] 7.2 Create endpoints for listing posts by category or tag.
+* [ ] **7. Handle prisma exceptions**
+  * [ ] 7.1 Handle prisma exceptions and return a proper error response
+  * [ ] 7.2 Create a global exception filter to handle all exceptions
+  * [ ] 7.3 Make sure that every route returns a proper error response with a readable message
+  
+* [ ] **8. Categories and Tags**:
+   * [ ] 8.1 Implement a system for categorizing and tagging articles.
+   * [ ] 8.2 Create endpoints for listing posts by category or tag.
 
-* [ ] **8. Search Functionality**:
-   * [ ] 8.1 Add a search functionality that allows users to search for specific articles based on keywords.
+* [ ] **9. Search Functionality**:
+   * [ ] 9.1 Add a search functionality that allows users to search for specific articles based on keywords.
 
-* [ ] **9. File Uploads**:
-    * [ ] 9.1 Allow users to upload images to be used in their articles.
-    * [ ] 9.2 Implement image upload and storage using a library like Multer.
+* [ ] **10. File Uploads**:
+    * [ ] 10.1 Allow users to upload images to be used in their articles.
+    * [ ] 10.2 Implement image upload and storage using a library like Multer.
 
-* [ ] **10. Testing**:
-    * [ ] 10.1 Write unit tests and integration tests for your controllers and services to ensure that your application functions correctly.
+* [ ] **11. Testing**:
+    * [ ] 11.1 Write unit tests and integration tests for your controllers and services to ensure that your application functions correctly.
